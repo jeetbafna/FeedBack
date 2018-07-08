@@ -12,7 +12,7 @@ passport.use(new GoogleStrategy({
  {
  	console.log('accessToken', accessToken);
  	console.log('refreshToken', refreshToken);
- 	console.log('profile:', profile);
+ 	console.log('profile', profile);
  })
 );
 
